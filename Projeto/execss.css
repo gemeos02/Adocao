@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #7FFFD4;
+    height: 80px;
+    padding: 0;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+   
+}
+h1{
+    color: #FFFFFF;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    text-shadow: 1px 1px 1px #111111;
+}
+footer{
+    background-color: #7FFFD4;
+    clear: both;
+    height: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+}
+#principal{
+    background-size: 100%;
+   background-image: url('fundo2.jpg');
+    min-height: 800px;
+    padding: 80px 0 0 0;
+    clear: both;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+   
+}
+#logo img{
+    width:80px; 
+    height:80px;
+}
+#menu{
+    margin-top: 20px;
+    float: right;
+}
+#menu a{
+    font-size: 20px;
+    padding: 38px;
+    text-decoration: none;
+    color: #111;
+    text-shadow: 1px 1px 1px 1px #111111;
+}
+#menu a:hover{
+    background-color: #111;
+    color: #7FFFD4;
+}
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 0 100px 0;
+}
+#mostrar{
+    display: none;
+}
